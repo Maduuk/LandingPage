@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+    background-color: rgb(104, 104, 248);
+}
+
+
+.nav-itens {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 20px;
+    font-size: 13px;
+}
+
+
+a {
+   color: white;
+   font-weight: bold; 
+}
+
+.container {
+    background-color: rgb(104, 104, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300pxpx;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+p {
+    color: rgb(226, 220, 220);
+    padding-bottom: 10px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+}
+
+.conteudo-escrito-principal {
+    padding-top: 100px;
+}
+
+.img {
+    width: 60%;
+}
+
+.btn-primario {
+    border-radius: 15px;
+    border-style: none;
+    padding: 6px 15px;
+    background-color: white;
+    color: rgb(13, 13, 24);
+}
+
+.btn-primario:hover {
+    background-color: rgb(192, 187, 187);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn-secundario {
+    border-radius: 15px;
+    border-style: solid;
+    margin-left: 20px;
+    padding: 6px 15px;
+    background-color:rgb(104, 104, 248);
+    color: white;
+    border-color: black;
+}
+
+.btn-secundario:hover {
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.container-sec {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+
+.container-sec-texto {
+    color: rgb(240, 63, 63);
+    padding-top: 25px;
+}
+
+.container-cards {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    gap: 50px;
+}
+
+.card-estilo  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 250px;
+    border-style: solid;
+    border-color: rgb(228, 184, 184);
+    border: 5px 1px;
+    box-shadow: 10px 9px 9px rgba(0, 0, 0, 0.295);
+    border-radius: 20px;
+    margin: 25px;
+
+}
+
+.card-estilo > p {
+    color: black;
+    padding-top: 15px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 19px
+}
+
+.icon-estilo {
+    width: 15%;
+    padding-top: 20px;
+}
