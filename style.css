@@ -138,7 +138,7 @@ h2 {
     padding-top: 15px;
     text-align: center;
 }
-
+ 
 h3 {
     text-align: center;
     padding-top: 15px;
@@ -148,4 +148,39 @@ h3 {
 .icon-estilo {
     width: 15%;
     padding-top: 20px;
+}
+
+@media screen and (max-width: 796px) {
+    
+    .container {
+        height: 350px;
+    }
+    
+    .img {
+        display: none;
+    }
+    
+    .conteudo-principal {
+        display: flex;
+    }
+
+    .conteudo-escrito-principal {
+        text-align: center;
+        
+    }
+    .container-sec {
+        text-align: center;
+    }
+    .container-cards {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card-estilo {
+        width: 50%;
+        height: 50%;
+        padding: 0px 6px;
+    }
+
+    
 }
