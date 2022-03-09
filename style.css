@@ -10,6 +10,10 @@ header {
     background-color: rgb(104, 104, 248);
 }
 
+#Menu {
+    display: none;
+}
+
 
 .nav-itens {
     display: flex;
@@ -182,5 +186,20 @@ h3 {
         padding: 0px 6px;
     }
 
+    
+}
+
+@media screen and (max-width: 400px) {
+    li {
+        display: none;
+    }
+
+    #Menu {
+        display: flex;
+        align-items: flex-end;
+        width: 12%;
+        margin-left: 15px;
+    }
+    
     
 }
