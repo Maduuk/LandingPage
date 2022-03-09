@@ -157,15 +157,20 @@ h3 {
 @media screen and (max-width: 796px) {
     
     .container {
-        height: 350px;
+        height: 600px;
     }
     
     .img {
-        display: none;
+        display: flex;
+        padding: 35px;
+        width: 90%;
     }
     
     .conteudo-principal {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .conteudo-escrito-principal {
